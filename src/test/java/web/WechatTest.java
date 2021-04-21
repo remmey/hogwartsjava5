@@ -66,7 +66,7 @@ public class WechatTest {
            });
 
             webDriver.navigate().refresh();
-
+            //进入天即成员页面
             webDriver.findElement(By.id("menu_contacts")).click();
             webDriver.findElement(By.id("memberSearchInput")).sendKeys("霍格沃兹");
             webDriver.findElements(By.id("search_party_list")).get(0).click();
