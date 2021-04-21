@@ -72,6 +72,7 @@ public class WechatTest {
             webDriver.findElements(By.id("search_party_list")).get(0).click();
             webDriver.findElements(By.cssSelector(".js_add_member")).get(0).click();
 
+            //添加成员
             webDriver.findElement(By.name("username")).sendKeys("小杨");
             webDriver.findElement(By.name("acctid")).sendKeys("13012345678");
             webDriver.findElement(By.name("mobile")).sendKeys("13012345678");
